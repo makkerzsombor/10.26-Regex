@@ -3,4 +3,12 @@
     margin-left: auto;
     margin-right: auto;
 }
-
+p{
+    color: red;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.siker{
+    color: green;
+    font-size: 72px;
+}
