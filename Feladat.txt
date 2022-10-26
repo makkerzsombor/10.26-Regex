@@ -1,0 +1,14 @@
+Utasítások
+Készíts egy fizetési űrlapot, amelyen a felhasználónak az alábbi adatokat kell kitöltenie:
+
+Teljes név (legalább egy betűből álljon)
+Ország (legalább egy betűből álljon)
+Város (legalább egy betűből álljon)
+Utca, házszám (min. 1 betű, tartalmazhat szóközöket, számot)
+Irányítószám (mint 1 karakter, számjegyek, nagybetűk)
+Bankkártya szám (4x4 számjegy, kötőjellel elválasztva)
+Ellenőrző kód (pontosan 3 számjegy)
+Bankkártyára írt név (angol kisbetűk, nagybetűk, szóköz)
+A "Fizetés" gombra kattintva ellenőrizd, hogy a felhasználó helyesen töltötte-e ki az űrlapot, a hibát egy erre kitalált mezőben jelezd piros betűszínnel.
+Siker esetén tüntesd el az űrlapot, és helyette jeleníts meg egy zöld "Sikeres fizetés" üzenetet.
+A form megjelenítése legyen elegáns, érthető (használj cimkéket stb.)
