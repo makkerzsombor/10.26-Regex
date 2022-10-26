@@ -8,10 +8,10 @@ document.addEventListener('DOMContentLoaded', () => {
     var _a;
     // Patternek:
     let elsoHaromPattern = /[a-zA-Z ]{1,}/;
-    let utcaHazPattern = / [a-zA-Z0-9_ ]{1,}/;
-    let irszPattern = / ^[A-Z][0-9]{1,}$/;
-    let bankKartyaSzamPattern = / ^[0-9]{1,}-[0-9]{1,}-[0-9]{1,}-[0-9]{1,}$/;
-    let kodPattern = / ^[0-9]{3}$/;
+    let utcaHazPattern = /[a-zA-Z0-9_ ]{1,}/;
+    let irszPattern = /^[A-Z0-9]{1,}$/;
+    let bankKartyaSzamPattern = /^[0-9]{1,}-[0-9]{1,}-[0-9]{1,}-[0-9]{1,}$/;
+    let kodPattern = /^[0-9]{3}$/;
     let tulajdonosPattern = /[a-zA-Z ]/;
     (_a = document.getElementById('fizetes')) === null || _a === void 0 ? void 0 : _a.addEventListener('click', () => {
         // Minden hibát kiszed
