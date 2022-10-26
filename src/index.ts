@@ -13,3 +13,7 @@ for (let email of emailCimek) {
     console.log(email[0]);
 }
 
+document.addEventListener('DOMContentLoaded',() => {
+    
+});
+
