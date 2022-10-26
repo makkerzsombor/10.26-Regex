@@ -1,0 +1,1 @@
+(()=>{"use strict";let t=/^[a-z]{3,}$/;console.log(t.test("bob")),console.log(t.test("!@1")),console.log(t.test("z"));let e="A petrik email cime: petrik@petrik.hu, a titkárásgé: titkarsag@petrik.hu".matchAll(/[a-z0-9.-]{1,}@[a-z.]{1,}/g);for(let t of e)console.log(t[0])})();
