@@ -6,10 +6,68 @@
     <title>Fizetés</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src='dist/main.js'></script>
 </head>
 <body>
-    <div id="form" class="kozep">
+    <div class="container" id="form">
+        <div class="row text-center">
+            <div class="col-md-4">
+            </div>
+            <div class="col-md-4 szines topBotPadding ">
+                <table>
+                    <tr>
+                        <th>Teljes név:</th>
+                        <th><input type="text" id="nev"></th>
+                        <th><p id="rosszNev"></p></th>
+                    </tr>
+                    <tr>
+                        <th>Ország:</th>
+                        <th><input type="text" id="orszag"></th>
+                        <th><p id="rosszOrszag"></p></th>
+                    </tr>
+                    <tr>
+                        <th>Város:</th>
+                        <th><input type="text" id="varos"></th>
+                        <th><p id="rosszVaros"></p></th>
+                    </tr>
+                    <tr>
+                        <th>Utca Házszám:</th>
+                        <th><input type="text" id="utcaHaz"></th>
+                        <th><p id="rosszUtca"></p></th>
+                    </tr>
+                    <tr>
+                        <th>Írányítószám:</th>
+                        <th><input type="text" id="irsz"></th>
+                        <th><p id="rosszIrsz"></p></th>
+                    </tr>
+                    <tr>
+                        <th>Bank Kártyaszám:</th>
+                        <th><input type="text" id="kartyaSzam"></th>
+                        <th><p id="rosszKartya"></p></th>
+                    </tr>
+                    <tr>
+                        <th>Ellenőrző kód:</th>
+                        <th><input type="text" id="kod"></th>
+                        <th><p id="rosszKod"></p></th>
+                    </tr>
+                    <tr>
+                        <th>Tulajdonos:</th>
+                        <th><input type="text" id="tulajdonos"></th>
+                        <th><p id="rosszTulajdonos"></p></th>
+                    </tr>
+                    <tr><td colspan="2"><button id="fizetes">Fizetés</button></td></tr>
+                </table>
+            </div>
+            <div class="col-md-4">
+            </div>            
+        </div>
+    </div>
+    
+
+    <!-- <div id="form" class="kozep">
 
     <label>Teljes név:</label>
     <input type="text" id="nev"> <p id="rosszNev"></p> <br>
@@ -37,6 +95,6 @@
 
     <button id="fizetes">Fizetés</button>
 
-    </div>    
+    </div>  -->   
 </body>
 </html>

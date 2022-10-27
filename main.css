@@ -1,7 +1,5 @@
-.kozep{
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+body{
+    background-color: rgb(146, 81, 28);
 }
 p{
     color: red;
@@ -11,4 +9,11 @@ p{
 .siker{
     color: green;
     font-size: 72px;
+}
+.topBotPadding{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.szines{
+    background-color: rgb(227, 227, 66);
 }

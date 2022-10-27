@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded',() => {
         }else if (!joTulajdonos) {
             (document.getElementById('rosszTulajdonos') as HTMLElement).textContent = 'Ez a tulajdonos nem felel meg a közetelményeknek!';
         }else {
-            (document.getElementById('form')as HTMLElement).innerHTML = '';
+            (document.getElementById('form') as HTMLElement).innerHTML = '';
             (document.getElementById('form') as HTMLElement).innerHTML = '<p class="siker"> Sikeres fizetés! </p>'
         }
 
