@@ -1,5 +1,5 @@
-body{
-    background-color: rgb(146, 81, 28);
+#test{
+    background-color: rgb(67, 168, 37);
 }
 p{
     color: red;
@@ -10,10 +10,21 @@ p{
     color: green;
     font-size: 72px;
 }
-.topBotPadding{
-    padding-top: 10px;
-    padding-bottom: 10px;
+.topBotMargin{
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
-.szines{
-    background-color: rgb(227, 227, 66);
+.form{
+    background-color: rgb(210, 235, 202);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h1{
+    color: rgb(67, 168, 37);
+}
+#fizetes{
+    background-color: rgb(67, 168, 37);
+    color: black;
+    border: solid  rgb(67, 168, 37) 1px;
+    margin-top: 10px;
 }
